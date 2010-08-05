@@ -1,0 +1,32 @@
+<?php
+$alias["df"]["sd0a"]["mount"] = "/";
+$alias["df"]["sd0a"]["type"]  = "ffs";
+$alias["df"]["sd0a"]["param"] = "rw";
+$alias["df"]["sd3a"]["mount"] = "/backups";
+$alias["df"]["sd3a"]["type"]  = "ffs";
+$alias["df"]["sd3a"]["param"] = "rw,nodev,nosuid";
+$alias["df"]["sd4a"]["mount"] = "/extra";
+$alias["df"]["sd4a"]["type"]  = "ffs";
+$alias["df"]["sd4a"]["param"] = "rw,nodev,nosuid";
+$alias["df"]["sd1a"]["mount"] = "/home";
+$alias["df"]["sd1a"]["type"]  = "ffs";
+$alias["df"]["sd1a"]["param"] = "rw,nodev,nosuid";
+$alias["df"]["sd0d"]["mount"] = "/tmp";
+$alias["df"]["sd0d"]["type"]  = "ffs";
+$alias["df"]["sd0d"]["param"] = "rw,nodev,nosuid,noexec";
+$alias["df"]["sd0g"]["mount"] = "/usr";
+$alias["df"]["sd0g"]["type"]  = "ffs";
+$alias["df"]["sd0g"]["param"] = "rw,nodev";
+$alias["df"]["sd0e"]["mount"] = "/var";
+$alias["df"]["sd0e"]["type"]  = "ffs";
+$alias["df"]["sd0e"]["param"] = "rw,nodev,nosuid";
+$alias["df"]["sd0f"]["mount"] = "/var/log";
+$alias["df"]["sd0f"]["type"]  = "ffs";
+$alias["df"]["sd0f"]["param"] = "rw,nodev,nosuid";
+$alias["df"]["sd0h"]["mount"] = "/var/postgresql";
+$alias["df"]["sd0h"]["type"]  = "ffs";
+$alias["df"]["sd0h"]["param"] = "rw,nodev,nosuid,noatime";
+$alias["df"]["sd2a"]["mount"] = "/var/www";
+$alias["df"]["sd2a"]["type"]  = "ffs";
+$alias["df"]["sd2a"]["param"] = "rw,nodev,nosuid,noatime";
+?>
